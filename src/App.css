@@ -33,25 +33,35 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
 .read-the-docs {
   color: #888;
 } */
+.casco{
+  height: 9.5vh;
+  width: 9.8vw;
+  position: absolute;
+  float: left;
+}
 #root{
   width: 100%;
 }
 .techo{
   display: flex;
   justify-content: center;
-  background-color: #242424;
+  /* background-color: #242424; */
 }
 .techoMenu{
-  height: 40vh;
-  width: 100%;
+  height: 35vh;
+  width: 90%;
 }
+.menu{
+  border: solid #FC4F00 8px;
+  border-radius: 4%;
+  margin: 0 15%;
+}
+/* .option{
+
+} */
 /*
 .techo{
   display: flex;
