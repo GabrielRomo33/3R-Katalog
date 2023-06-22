@@ -1,8 +1,17 @@
 import React from 'react'
+import './CardOption.css'
 
-export const CardOption = () => {
+export const CardOption = ({tittle,descripcion,src}) => {
   return (
-    <h1>Hi Mundo!!!!!</h1>
+    <>
+    <h1 className='subtitle'>{tittle}</h1>
+    <div className="option-Container">
+      <img src={src} alt="" />
+      <p>
+        {descripcion}
+      </p>
+    </div>
+    </>
   )
 }
 

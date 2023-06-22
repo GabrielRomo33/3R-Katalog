@@ -38,12 +38,14 @@
 } */
 .casco{
   height: 9.5vh;
+  min-height: 9;
   width: 9.8vw;
   position: absolute;
   float: left;
 }
 #root{
   width: 100%;
+  height: 100%;
 }
 .techo{
   display: flex;
@@ -52,32 +54,33 @@
 }
 .techoMenu{
   height: 35vh;
-  width: 90%;
+  width: 93%;
 }
 .menu{
   border: solid #FC4F00 8px;
   border-radius: 4%;
-  margin: 0 15%;
+  margin: 0 11%;
+  height: 55%;
 }
-/* .option{
-
-} */
-/*
-.techo{
+.section{
+  /* border: solid purple 3px; */
   display: flex;
-  justify-content: center;
-  margin-top: 10vh;
-  background-color: chartreuse;
+  height: 49%;
+  width: 100%;
+  margin: auto;
 }
-.techo1{
-  background-color: #FC4F00;
-  width: 33vw;
-  height: 5vh;
-  rotate: -15deg;
+.option{
+  padding: 1px;
+  /* border: blue solid 2px; */
+  border-radius: 10px;
+  height: 93%;
+  width: 100%;
+  margin: 1%;
 }
-.techo2{
-  background-color: #FC4F00;
-  width: 33vw;
-  height: 5vh;
-  rotate: 15deg;
-} */
+.option:hover{
+  transform: scale(1);
+  filter: drop-shadow(0 0 2em #f05e09aa);
+}
+
+
+
