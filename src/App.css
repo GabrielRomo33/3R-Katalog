@@ -53,14 +53,16 @@
   /* background-color: #242424; */
 }
 .techoMenu{
-  height: 35vh;
-  width: 93%;
+  height: 32vh;
+  width: 100%;
 }
 .menu{
   border: solid #FC4F00 8px;
-  border-radius: 4%;
+  border-radius: 1%;
   margin: 0 11%;
+  margin-bottom: 2%;
   height: 55%;
+  padding: 2%;
 }
 .section{
   /* border: solid purple 3px; */
@@ -78,7 +80,6 @@
   margin: 1%;
 }
 .option:hover{
-  transform: scale(1);
   filter: drop-shadow(0 0 2em #f05e09aa);
 }
 
